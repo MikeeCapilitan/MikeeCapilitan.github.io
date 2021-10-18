@@ -1,0 +1,30 @@
+body {
+  background: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+table {
+  width: 600px; }
+
+table, tr, td, th {
+  border: 2px solid red; 
+  border-collapse: none;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+h2 {font-family:verdana;
+font-size: 17px}
+
+table {background-color: yellow;
+background-attachment: fi}
+
+img { width: 100px;
+border: 1px;}
+p { font-size: 15px; 
+font-family: courier}
+a { font-size: 10px;}
+
+p, a {text-transform: none;}
+
+h2 {font-size: 15px;}
