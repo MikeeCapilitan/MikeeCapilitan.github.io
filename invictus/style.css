@@ -19,3 +19,7 @@ body {
   padding: 15px;
   background-color: yellow;
 }
+.container {
+  max-width: 400px;
+  margin: auto; 
+}
