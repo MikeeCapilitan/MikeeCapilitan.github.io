@@ -17,9 +17,12 @@ h1, h3, h4 {
 }
 body {
   padding: 15px;
-  background-color: yellow;
 }
 .container {
   max-width: 400px;
   margin: auto; 
+}
+.fixed {
+  position: fixed;
+    top: 10px;
 }
