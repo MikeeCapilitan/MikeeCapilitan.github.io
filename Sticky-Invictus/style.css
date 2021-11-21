@@ -24,10 +24,7 @@ body {
 }
 .fixed {
   position: fixed;
-    top: 10px;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display:block;
+  left: 180px;
+  top:30px;
 }
