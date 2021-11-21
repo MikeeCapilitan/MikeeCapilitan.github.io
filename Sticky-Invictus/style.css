@@ -25,6 +25,6 @@ body {
 .fixed {
   position: fixed;
   display:block;
-  left: 180px;
+  left: 300px;
   top:30px;
 }
