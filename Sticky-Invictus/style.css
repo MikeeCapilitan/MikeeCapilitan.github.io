@@ -25,6 +25,5 @@ body {
 .fixed {
   position: fixed;
   display:block;
-  left: 300px;
-  top:30px;
-}
+  image-position: center;
+  }
