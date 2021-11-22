@@ -24,7 +24,7 @@ body {
   margin: auto; 
 }
 .sticky {
-  position: sticky;
+  position:sticky;
   top: 10px;
   display:block;
 }
