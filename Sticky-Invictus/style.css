@@ -13,7 +13,8 @@ h1, h3, h4 {
   font-family: Cursive;
 }
 .about {
-  font-size: 20px
+  font-size: 20px;
+  display: block;
 }
 body {
   padding: 15px;
@@ -22,8 +23,13 @@ body {
   max-width: 400px;
   margin: auto; 
 }
-.fixed {
-  position: fixed;
+.sticky {
+  position: sticky;
+  top: 10px;
   display:block;
-  image-position: center;
-  }
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
