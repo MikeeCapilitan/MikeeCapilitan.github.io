@@ -40,8 +40,8 @@ h1, h4 {
 img {
    width: 200px; 
    height: 200px;
-   position: absolute;
-   top: 50% ;
+   position: fixed;
+   top:  30% ;
    right: 50px;
    width: 25%;
    height: 50%;
