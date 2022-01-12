@@ -1,0 +1,49 @@
+body {
+     background-repeat: repeat;
+    background-size: 100%;
+}
+.flex-container {
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ font-style: italic;
+font-weight: bolder;
+}
+.item {
+    box-sizing: content-box;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-style: wavy;
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellowgreen;
+}
+a:hover{
+    color:whitesmoke; 
+}   
+.all {
+    background-color: rgba(124, 85, 197, 0.568); 
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    color: rgb(229, 255, 0) ;
+    text-decoration-style: solid;
+    text-transform: uppercase;   
+    text-shadow: rgb(229, 255, 0);
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+    color: rgb(86, 255, 20);
+}
+footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(238, 255, 0);
+    text-transform: uppercase;
+}
