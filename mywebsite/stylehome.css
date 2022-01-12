@@ -1,0 +1,65 @@
+body {
+    background-repeat: repeat;
+   background-size: 100%;
+}
+.flex-container {
+display: flex;
+justify-content: center;
+flex-direction: row;
+font-style: italic;
+font-weight: bolder;
+}
+.item {
+   box-sizing: content-box;
+   padding: 20px;
+   text-transform: uppercase;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration-style: wavy;
+}
+a:link {
+   color: yellow;
+}
+a:visited {
+   color: yellowgreen;
+}
+a:hover{
+   color:whitesmoke; 
+}   
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-color: rgb(233, 233, 233);
+    color: rgb(99, 62, 13);
+}
+aside {
+    width: 35%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+aside, section, article {
+    background-color: rgba(102, 86, 248, 0.596);
+    display: inline;
+    box-sizing: border-box;
+}
+section {
+    width: 60%;
+    padding-right: 15px;
+    margin-right: 15px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+aside, section, article {
+    padding: 20px;
+}
+article {
+        width: 60%;
+        padding-right: 15px;
+        margin-right: 15px;
+        float: left;
+        font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
