@@ -1,0 +1,25 @@
+#boxes {
+    display: flex;
+    /*background-color: gray;*/
+    justify-content: space-evenly;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: green;
+    display: flex;
+    align-items: center;
+  }
+
+.box:hover {
+  cursor: pointer
+}
+
+span {
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
